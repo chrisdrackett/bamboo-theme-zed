@@ -28,7 +28,8 @@
     "editor.background": "#fff",
     "editor.foreground": "#8f8c8c",
     "editor.lineHighlightBorder": "#ffffff",
-    "editor.selectionBackground": "#0069d91c",
+		"editor.selectionBackground": "#0069d97a",
+		"editor.selectionHighlightBackground": "#0069d91c",
     "editorLink.activeForeground": "#1a7bfa",
     "editor.rangeHighlightBackground": "#fffb173b",
     "editor.findMatchHighlightBackground": "#fffb173b",
@@ -95,7 +96,8 @@
     "terminal.ansiMagenta": "#c678dd",
     "terminal.ansiRed": "#ff2c6d",
     "terminal.ansiWhite": "#d0d0d0",
-    "terminal.ansiYellow": "#d19a66"
+    "terminal.ansiYellow": "#d19a66",
+    "git.blame.editorDecorationForeground": "#d0d0d0"
   },
   "tokenColors": [
     {
