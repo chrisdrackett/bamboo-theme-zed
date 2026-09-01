@@ -4,7 +4,7 @@
   "description": "Bamboo theme for VSCode",
   "publisher": "TiltShift",
   "repository": "git@github.com:chrisdrackett/bamboo-vs.git",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "engines": {
     "vscode": "^1.41.0"
   },
