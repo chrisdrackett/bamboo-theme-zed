@@ -1,7 +1,7 @@
-id = "bamboo"
-name = "Bamboo"
+id = "bamboo-paper-theme"
+name = "Bamboo Paper"
 version = "0.0.1"
 schema_version = 1
-authors = ["Chris Drackett"]
-description = "Bamboo Theme"
+authors = ["Chris Drackett <chris@drackett.com>"]
+description = "A light UI/Syntax theme with a dark terminal for Zed."
 repository = "https://github.com/chrisdrackett/bamboo-theme-zed"
