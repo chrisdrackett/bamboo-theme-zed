@@ -1,7 +1,7 @@
 # Change Log
 
-All notable changes to the "bamboo" extension will be documented in this file.
-
 ## [0.0.1]
 
 - Initial release
+- Port From VSCode Theme
+- Add open folder icon

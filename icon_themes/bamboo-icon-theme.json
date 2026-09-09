@@ -1,0 +1,78 @@
+{
+	"$schema": "https://zed.dev/schema/icon_themes/v0.3.0.json",
+	"name": "Bamboo",
+	"author": "Chris Drackett",
+	"themes": [
+		{
+			"name": "Bamboo",
+			"appearance": "light",
+			"directory_icons": {
+				"collapsed": "./icons/folder.svg",
+				"expanded": "./icons/folder_open.svg"
+			},
+			"file_icons": {
+				"default": { "path": "./icons/generic.svg" },
+				"image": { "path": "./icons/image.svg" },
+				"settings": { "path": "./icons/settings.svg" },
+				"style": { "path": "./icons/style.svg" },
+				"template": { "path": "./icons/template.svg" },
+				"text": { "path": "./icons/text.svg" },
+				"test": { "path": "./icons/test.svg" },
+				"tools": { "path": "./icons/tools.svg" },
+				"code": { "path": "./icons/code.svg" }
+			},
+			"file_stems": {
+				"app.json": "settings",
+				".svgrrc.js": "settings",
+				"tsconfig.json": "settings",
+				".eslintignore": "settings",
+				".eslintrc.json": "settings",
+				".figmintrc.json": "settings",
+				".graphqlrc": "settings",
+				".nowignore": "settings",
+				".prettierignore": "settings",
+				"package.json": "settings",
+				".prettierrc.json": "settings",
+				"now.json": "settings"
+			},
+			"file_suffixes": {
+				"svg": "image",
+				"png": "image",
+				"jpg": "image",
+				"gif": "image",
+				"ico": "image",
+				"sketch": "image",
+				"less": "style",
+				"sass": "style",
+				"css": "style",
+				"scss": "style",
+				"md": "text",
+				"txt": "text",
+				"rtf": "text",
+				"log": "text",
+				"ts": "code",
+				"tsx": "code",
+				"js": "code",
+				"jsx": "code",
+				"json": "code",
+				"py": "code",
+				"html": "template",
+				"test": "test",
+				"stories": "test",
+				"gitignore": "settings",
+				"config.js": "settings",
+				"babel": "settings",
+				"eslint": "settings",
+				"flowconfig": "settings",
+				"prettier": "settings",
+				"watchmanconfig": "settings",
+				"lock": "settings",
+				"env": "settings",
+				"template": "template",
+				"yml": "settings",
+				"app.json": "settings",
+				"now.json": "settings"
+			}
+		}
+	]
+}
