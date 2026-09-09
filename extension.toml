@@ -3,5 +3,5 @@ name = "Bamboo"
 version = "0.0.1"
 schema_version = 1
 authors = ["Chris Drackett"]
-description = "Bamboo Light"
-repository = "https://github.com/chrisdrackett/bamboo"
+description = "Bamboo Theme"
+repository = "https://github.com/chrisdrackett/bamboo-theme-zed"

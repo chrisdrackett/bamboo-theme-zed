@@ -1,10 +1,14 @@
-# Bamboo for Zed
+# 🎋 Bamboo for Zed
 
 A light theme with a dark terminal for Zed.
 
-Pairs well with the [Bamboo Icon Theme for Zed](https://github.com/chrisdrackett/bamboo-icon-theme-zed).
-
 ![Bamboo for Zed screenshot](screenshot.png)
+
+👻 Dark Version coming someday?
+
+## Icons
+
+Pairs well with the [Bamboo Icon Theme for Zed](https://github.com/chrisdrackett/bamboo-icon-theme-zed).
 
 ## Development
 
@@ -12,4 +16,4 @@ Pairs well with the [Bamboo Icon Theme for Zed](https://github.com/chrisdrackett
 2. Select this repository's root directory, which contains `extension.toml`.
 3. Run `theme selector: toggle` and select **Bamboo Light**.
 
-Alternatively, copy `bamboo-theme-zed` into `~/.config/zed/themes/` and select **Bamboo Light** in the theme selector. Create that directory if it does not exist.
+Alternatively, copy `bamboo-theme-zed/themes/bamboo-light.json` into `~/.config/zed/themes/` and select **Bamboo Light** in the theme selector. Create that directory if it does not exist.
