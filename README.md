@@ -12,4 +12,4 @@ Pairs well with the [Bamboo Icon Theme for Zed](https://github.com/chrisdrackett
 2. Select this repository's root directory, which contains `extension.toml`.
 3. Run `theme selector: toggle` and select **Bamboo Light**.
 
-Alternatively, copy `themes/bamboo.json` into `~/.config/zed/themes/` and select **Bamboo Light** in the theme selector. Create that directory if it does not exist.
+Alternatively, copy `bamboo-theme-zed` into `~/.config/zed/themes/` and select **Bamboo Light** in the theme selector. Create that directory if it does not exist.
