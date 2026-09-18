@@ -1,1 +1,17 @@
+# macOS
 .DS_Store
+
+# Dependencies and generated Yarn state
+node_modules/
+.yarn/install-state.gz
+.yarn/build-state.yml
+.yarn/cache/
+.yarn/unplugged/
+
+# Package-manager logs
+yarn-debug.log*
+yarn-error.log*
+npm-debug.log*
+
+# TypeScript incremental build state
+*.tsbuildinfo

@@ -1,0 +1,8 @@
+{
+	"extends": "@tiltshift/config/tsconfig",
+	"compilerOptions": {
+		"types": ["node"],
+		"allowImportingTsExtensions": true
+	},
+	"include": ["src/**/*.ts", "scripts/**/*.ts", "test/**/*.ts"]
+}

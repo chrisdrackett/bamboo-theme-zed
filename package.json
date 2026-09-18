@@ -1,0 +1,31 @@
+{
+	"name": "bamboo-paper-theme",
+	"private": true,
+	"packageManager": "yarn@4.18.0",
+	"type": "module",
+	"scripts": {
+		"dev": "node --import tsx scripts/dev.ts",
+		"generate": "node --import tsx scripts/generate.ts",
+		"check:generated": "node --import tsx scripts/generate.ts --check",
+		"check": "yarn lint && yarn typecheck && yarn spellcheck && yarn test && yarn check:generated",
+		"lint": "biome ci --error-on-warnings",
+		"format": "biome check --write",
+		"typecheck": "tsc --noEmit",
+		"spellcheck": "cspell --no-progress .",
+		"test": "node --import tsx --test test/*.test.ts"
+	},
+	"volta": {
+		"node": "24.21.0",
+		"yarn": "4.18.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.5.13",
+		"@tiltshift/config": "github:tiltshift/config#9e73303f594ca198768c1c425ca61a0c1729002f",
+		"@types/culori": "4.0.1",
+		"@types/node": "22.20.2",
+		"cspell": "10.2.2",
+		"culori": "4.0.2",
+		"tsx": "4.23.13",
+		"typescript": "7.0.2"
+	}
+}
