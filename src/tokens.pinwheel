@@ -5,8 +5,244 @@
       <version>1.7</version>
       <description></description>
     </header>
-    <settings/>
-    <colorItems/>
+    <settings>
+      <setting>
+        <key>DisplayMode</key>
+        <value>table</value>
+      </setting>
+    </settings>
+    <colorItems>
+      <group>
+        <id>AB3D5984-FA77-4DA9-A731-8926D9955831</id>
+        <name>Syntax</name>
+        <expanded>1</expanded>
+        <colorItem>
+          <id>60A658D7-CFE1-4151-889E-7A9AC75C7A0B</id>
+          <name>Black</name>
+          <profile>sRGB</profile>
+          <format>2</format>
+          <color>
+            <variants>
+              <variant>
+                <rgba>0.2902 0.28235 0.28235 1</rgba>
+              </variant>
+            </variants>
+          </color>
+          <buildGroupId>86B9D7D8-F74A-4CAE-B006-65451BBEDAB9</buildGroupId>
+        </colorItem>
+        <colorItem>
+          <id>A7CE37E0-1818-4596-804D-155330877FC6</id>
+          <name>Light Black</name>
+          <profile>sRGB</profile>
+          <format>2</format>
+          <color>
+            <variants>
+              <variant>
+                <rgba>0.59608 0.59608 0.59608 1</rgba>
+              </variant>
+            </variants>
+          </color>
+          <buildGroupId>86B9D7D8-F74A-4CAE-B006-65451BBEDAB9</buildGroupId>
+        </colorItem>
+        <colorItem>
+          <id>2DD775BA-D28C-47E0-AE96-415F4E043A9F</id>
+          <name>Deep Black</name>
+          <profile>sRGB</profile>
+          <format>2</format>
+          <color>
+            <variants>
+              <variant>
+                <rgba>0 0 0 1</rgba>
+              </variant>
+            </variants>
+          </color>
+          <buildGroupId>86B9D7D8-F74A-4CAE-B006-65451BBEDAB9</buildGroupId>
+        </colorItem>
+        <colorItem>
+          <id>70799299-032A-4929-AFE7-B8F879CD8866</id>
+          <name>Yellow Background</name>
+          <profile>sRGB</profile>
+          <format>2</format>
+          <color>
+            <variants>
+              <variant>
+                <rgba>1 0.99608 0.84314 1</rgba>
+              </variant>
+            </variants>
+          </color>
+          <buildGroupId>86B9D7D8-F74A-4CAE-B006-65451BBEDAB9</buildGroupId>
+        </colorItem>
+        <colorItem>
+          <id>6B7941C5-C644-46D0-A558-C290EE288110</id>
+          <name>Yellow</name>
+          <profile>sRGB</profile>
+          <format>2</format>
+          <color>
+            <variants>
+              <variant>
+                <rgba>0.54118 0.51373 0 1</rgba>
+              </variant>
+            </variants>
+          </color>
+          <buildGroupId>86B9D7D8-F74A-4CAE-B006-65451BBEDAB9</buildGroupId>
+        </colorItem>
+        <colorItem>
+          <id>99A004E1-E232-4540-8A32-AE648D9C6286</id>
+          <name>Green</name>
+          <profile>sRGB</profile>
+          <format>2</format>
+          <color>
+            <variants>
+              <variant>
+                <rgba>0.32549 0.46667 0.058824 1</rgba>
+              </variant>
+            </variants>
+          </color>
+          <buildGroupId>86B9D7D8-F74A-4CAE-B006-65451BBEDAB9</buildGroupId>
+        </colorItem>
+        <colorItem>
+          <id>7CDD2478-B9FD-4B6B-AB4D-B85AB02A29B9</id>
+          <name>Green Background</name>
+          <profile>sRGB</profile>
+          <format>2</format>
+          <color>
+            <variants>
+              <variant>
+                <rgba>0.92157 0.99216 0.84314 1</rgba>
+              </variant>
+            </variants>
+          </color>
+          <buildGroupId>86B9D7D8-F74A-4CAE-B006-65451BBEDAB9</buildGroupId>
+        </colorItem>
+        <colorItem>
+          <id>32B58F1C-F6B3-4785-97D3-37FEC8B8FF9E</id>
+          <name>Blue</name>
+          <profile>sRGB</profile>
+          <format>2</format>
+          <color>
+            <variants>
+              <variant>
+                <rgba>0 0.40784 0.56863 1</rgba>
+              </variant>
+            </variants>
+          </color>
+          <buildGroupId>86B9D7D8-F74A-4CAE-B006-65451BBEDAB9</buildGroupId>
+        </colorItem>
+        <colorItem>
+          <id>5FD3750B-134E-447B-ACB1-5E9F5D4966B5</id>
+          <name>Blue Background</name>
+          <profile>sRGB</profile>
+          <format>2</format>
+          <color>
+            <variants>
+              <variant>
+                <rgba>0.84314 0.94902 1 1</rgba>
+              </variant>
+            </variants>
+          </color>
+          <buildGroupId>86B9D7D8-F74A-4CAE-B006-65451BBEDAB9</buildGroupId>
+        </colorItem>
+        <colorItem>
+          <id>1A4CB873-9B31-4748-85BD-1E15FD515051</id>
+          <name>Blue 2</name>
+          <profile>sRGB</profile>
+          <format>2</format>
+          <color>
+            <variants>
+              <variant>
+                <rgba>0.1098 0.63137 0.78039 1</rgba>
+              </variant>
+            </variants>
+          </color>
+          <buildGroupId>86B9D7D8-F74A-4CAE-B006-65451BBEDAB9</buildGroupId>
+        </colorItem>
+        <colorItem>
+          <id>93567478-FA21-42EA-9351-75B6832F4760</id>
+          <name>Red</name>
+          <profile>sRGB</profile>
+          <format>2</format>
+          <color>
+            <variants>
+              <variant>
+                <rgba>0.56471 0.24706 0.19216 1</rgba>
+              </variant>
+            </variants>
+          </color>
+          <buildGroupId>86B9D7D8-F74A-4CAE-B006-65451BBEDAB9</buildGroupId>
+        </colorItem>
+        <colorItem>
+          <id>79739F06-6055-4DAD-9AAC-FBC81FC87077</id>
+          <name>Red Background</name>
+          <profile>sRGB</profile>
+          <format>2</format>
+          <color>
+            <variants>
+              <variant>
+                <rgba>1 0.88627 0.86275 1</rgba>
+              </variant>
+            </variants>
+          </color>
+          <buildGroupId>86B9D7D8-F74A-4CAE-B006-65451BBEDAB9</buildGroupId>
+        </colorItem>
+        <colorItem>
+          <id>EF5FF651-0E4F-4FDA-8BC5-8D08E8CADBB3</id>
+          <name>Purple</name>
+          <profile>sRGB</profile>
+          <format>2</format>
+          <color>
+            <variants>
+              <variant>
+                <rgba>0.40788 0.25488 0.49803 1</rgba>
+              </variant>
+            </variants>
+          </color>
+          <buildGroupId>86B9D7D8-F74A-4CAE-B006-65451BBEDAB9</buildGroupId>
+        </colorItem>
+        <colorItem>
+          <id>6F76BE54-1B0A-4038-83BD-BB9C9BB1AF3B</id>
+          <name>Purple Background</name>
+          <profile>sRGB</profile>
+          <format>2</format>
+          <color>
+            <variants>
+              <variant>
+                <rgba>0.93725 0.87451 0.98039 1</rgba>
+              </variant>
+            </variants>
+          </color>
+          <buildGroupId>86B9D7D8-F74A-4CAE-B006-65451BBEDAB9</buildGroupId>
+        </colorItem>
+        <colorItem>
+          <id>33FC2FB4-6749-4603-B2CE-5A5C0164D172</id>
+          <name>Grey</name>
+          <profile>sRGB</profile>
+          <format>2</format>
+          <color>
+            <variants>
+              <variant>
+                <rgba>0.62744 0.62744 0.62744 1</rgba>
+              </variant>
+            </variants>
+          </color>
+          <buildGroupId>86B9D7D8-F74A-4CAE-B006-65451BBEDAB9</buildGroupId>
+        </colorItem>
+        <colorItem>
+          <id>B06BF9B3-9739-458F-84A9-24B0B38C627B</id>
+          <name>Grey Background</name>
+          <profile>sRGB</profile>
+          <format>2</format>
+          <color>
+            <variants>
+              <variant>
+                <rgba>0 0 0 0.029572</rgba>
+              </variant>
+            </variants>
+          </color>
+          <buildGroupId>86B9D7D8-F74A-4CAE-B006-65451BBEDAB9</buildGroupId>
+        </colorItem>
+        <buildGroupId>86B9D7D8-F74A-4CAE-B006-65451BBEDAB9</buildGroupId>
+      </group>
+    </colorItems>
     <buildGroups>
       <buildGroup>
         <id>86B9D7D8-F74A-4CAE-B006-65451BBEDAB9</id>
@@ -17,10 +253,10 @@
             <name>Bamboo</name>
             <id>90CDFBE5-ABC2-4746-9A5C-53F1C3D3D17F</id>
             <folder>./</folder>
-            <fileName>pinwheel</fileName>
+            <fileName>tokens</fileName>
             <fileType>10</fileType>
             <nameTransform>1</nameTransform>
-            <colorSpaceConversion>0</colorSpaceConversion>
+            <colorSpaceConversion>1</colorSpaceConversion>
           </task>
         </tasks>
       </buildGroup>
