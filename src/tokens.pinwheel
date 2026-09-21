@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pinwheel xmlns="https://bjango.com/pinwheel" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://bjango.com/pinwheel/schema/pinwheel.xsd">
+  <project>
+    <header>
+      <version>1.7</version>
+      <description></description>
+    </header>
+    <settings/>
+    <colorItems/>
+    <buildGroups>
+      <buildGroup>
+        <id>86B9D7D8-F74A-4CAE-B006-65451BBEDAB9</id>
+        <name>Exports</name>
+        <expanded>1</expanded>
+        <tasks>
+          <task>
+            <name>Bamboo</name>
+            <id>90CDFBE5-ABC2-4746-9A5C-53F1C3D3D17F</id>
+            <folder>./</folder>
+            <fileName>pinwheel</fileName>
+            <fileType>10</fileType>
+            <nameTransform>1</nameTransform>
+            <colorSpaceConversion>0</colorSpaceConversion>
+          </task>
+        </tasks>
+      </buildGroup>
+    </buildGroups>
+    <testGroups>
+      <testGroup>
+        <id>DFE8D863-AA92-4541-8369-DD13DB026103</id>
+        <name>Contrast Tests</name>
+        <expanded>1</expanded>
+        <tests>
+          <test>
+            <name>APCA Contrast Test</name>
+            <id>263D2352-8191-464A-9C78-402D86ABBE51</id>
+            <type>apcaContrast</type>
+            <thresholdType>textSize</thresholdType>
+            <fontSize>18</fontSize>
+            <fontWeight>400</fontWeight>
+          </test>
+          <test>
+            <name>WCAG Contrast Test</name>
+            <id>65A0D441-95DC-4A79-BC9E-41DF7BD1A97C</id>
+            <type>wcagContrast</type>
+          </test>
+        </tests>
+      </testGroup>
+    </testGroups>
+  </project>
+</pinwheel>

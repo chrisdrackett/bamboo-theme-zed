@@ -20,7 +20,7 @@
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.5.13",
-		"@tiltshift/config": "github:tiltshift/config#9e73303f594ca198768c1c425ca61a0c1729002f",
+		"@tiltshift/config": "github:tiltshift/config",
 		"@types/culori": "4.0.1",
 		"@types/node": "22.20.2",
 		"cspell": "10.2.2",

@@ -9,13 +9,16 @@ const focusedBorder = "#c4daf6"
 const disabledBorder = "#d5d6d8"
 const elementHover = "#dfe0e1"
 const elementActive = "#cfd0d2"
-const text = "#5c6166"
-const mutedText = "#8b8e92"
+const text = "#4A4848"
+const mutedText = "#5c6166"
 const placeholderText = "#a9acae"
 const accentText = "#3b9ee5"
 const editorBackground = "#fcfcfc"
 const editorLineNumber = "#b0b0b0"
 const editorInvisible = "#acafb1"
+const hint = "#8ca7c2"
+const hintBackground = "#EEF2F6"
+const hintBorder = "#8ca7c2"
 
 // Byte fractions preserve the source alpha channels exactly, including transparent RGB.
 const transparent = alpha("#000000", 0)
@@ -24,14 +27,17 @@ const thumbBackground = alpha(text, 8 / 255)
 const thumbHover = alpha("#bfbfbf", 120 / 255)
 const thumbActive = alpha("#bdbdbd", 156 / 255)
 
-const warningForeground = "#f1ad49"
+const warningBright = "#f1ad49"
+const warningForeground = "#A46A1D"
 const warningBackground = "#ffeeda"
 const warningBorder = "#ffe1be"
-const successForeground = "#85b304"
-const successBackground = "#e9efd2"
+const successBright = "#85b304"
+const successForeground = "#53770F"
+const successBackground = "#EBFDD7"
 const successBorder = "#d7e3ae"
-const errorForeground = "#ef7271"
-const errorBackground = "#ffe3e1"
+const errorBright = "#ef7271"
+const errorForeground = "#903f31"
+const errorBackground = "#FFE2DC"
 const errorBorder = "#ffcdca"
 const infoBackground = "#deebfa"
 
@@ -155,11 +161,11 @@ export const ui = {
 	"editor.diff_hunk.deleted.hollow_border": null,
 
 	// Version control
-	"version_control.added": successForeground,
-	"version_control.deleted": errorForeground,
-	"version_control.modified": warningForeground,
+	"version_control.added": successBright,
+	"version_control.deleted": errorBright,
+	"version_control.modified": warningBright,
 	"version_control.renamed": accentText,
-	"version_control.conflict": warningForeground,
+	"version_control.conflict": warningBright,
 	"version_control.ignored": placeholderText,
 	"version_control.word_added": null,
 	"version_control.word_deleted": null,
@@ -196,15 +202,15 @@ export const ui = {
 	deleted: errorForeground,
 	"deleted.background": errorBackground,
 	"deleted.border": errorBorder,
-	error: errorForeground,
+	error: errorBright,
 	"error.background": errorBackground,
 	"error.border": errorBorder,
 	hidden: placeholderText,
 	"hidden.background": background,
 	"hidden.border": disabledBorder,
-	hint: "#8ca7c2",
-	"hint.background": infoBackground,
-	"hint.border": focusedBorder,
+	hint,
+	"hint.background": hintBackground,
+	"hint.border": hintBorder,
 	ignored: placeholderText,
 	"ignored.background": background,
 	"ignored.border": border,
@@ -214,9 +220,9 @@ export const ui = {
 	modified: warningForeground,
 	"modified.background": warningBackground,
 	"modified.border": warningBorder,
-	predictive: "#9eb9d3",
-	"predictive.background": successBackground,
-	"predictive.border": successBorder,
+	predictive: hint,
+	"predictive.background": hintBackground,
+	"predictive.border": hintBorder,
 	renamed: accentText,
 	"renamed.background": infoBackground,
 	"renamed.border": focusedBorder,

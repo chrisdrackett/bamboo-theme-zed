@@ -46,21 +46,28 @@ export const syntax = [
 		background_color: blueBackground,
 	},
 	{
-		keys: ["punctuation", "keyword", "keyword.declaration", "keyword.import"],
+		keys: ["variable", "property"],
+		color: black,
+	},
+	{
+		keys: [
+			"keyword",
+			"punctuation",
+			"operator",
+			"keyword.declaration",
+			"keyword.import",
+			"keyword.control",
+		],
 		color: lightBlack,
 	},
 	{
-		keys: ["number", "boolean", "constant.builtin"],
+		keys: ["number", "boolean", "constant.builtin", "type.unit"],
 		color: purple,
 		background_color: purpleBackground,
 	},
 	{
 		keys: ["type"],
 		color: blue2,
-	},
-	{
-		keys: ["variable", "operator", "property"],
-		color: black,
 	},
 	{
 		keys: ["hint"],

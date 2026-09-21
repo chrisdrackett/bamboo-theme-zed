@@ -869,14 +869,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@tiltshift/config@github:tiltshift/config#9e73303f594ca198768c1c425ca61a0c1729002f":
-  version: 4.0.0
-  resolution: "@tiltshift/config@https://github.com/tiltshift/config.git#commit=9e73303f594ca198768c1c425ca61a0c1729002f"
+"@tiltshift/config@github:tiltshift/config":
+  version: 5.0.0
+  resolution: "@tiltshift/config@https://github.com/tiltshift/config.git#commit=585adf1e6646120fe301bd0bd6d806915d297ad6"
   dependencies:
     "@biomejs/biome": "npm:2.5.13"
-    cspell: "npm:10.2.2"
     typescript: "npm:7.0.2"
-  checksum: 10c0/d4c5bc18ab06178c289b06c0e5370a74e789f5c478f64712c5eb2092621734f72f6497860115f726c924100e21b491be72ca37072239af7b51ee042f1b3775f4
+  checksum: 10c0/39d306434b11783a52c581b4d0e9e1ef720f48de2bc9d0623ddc84c35c1a071c4d108956a6818a9ed9adc5a4cd0e7b45c7b8299056c307c8c9a44e46e3aac3b4
   languageName: node
   linkType: hard
 
@@ -1062,7 +1061,7 @@ __metadata:
   resolution: "bamboo-paper-theme@workspace:."
   dependencies:
     "@biomejs/biome": "npm:2.5.13"
-    "@tiltshift/config": "github:tiltshift/config#9e73303f594ca198768c1c425ca61a0c1729002f"
+    "@tiltshift/config": "github:tiltshift/config"
     "@types/culori": "npm:4.0.1"
     "@types/node": "npm:22.20.2"
     cspell: "npm:10.2.2"
